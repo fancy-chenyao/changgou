@@ -13,9 +13,14 @@
     <description>
         商品微服务的POJO feign
     </description>
-
-
-
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>3.0.5</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
