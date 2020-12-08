@@ -14,72 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0144f8-4817-457a-ac8d-1aad6b572905" name="Default" comment="1_框架搭建（eureka+springCloud+mybatis-plus）">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/TbBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/config/BasesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/config/handler/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/mapper/TbBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/mapper/xml/TbBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/TbBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/TbBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/test/java/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_4_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common-db/changgou-common-db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-common-db/changgou-common-db.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-common-db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/changgou-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-common/changgou-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/src/main/java/entity/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/src/main/java/entity/StatusCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/target/classes/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-common/target/classes/entity/StatusCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service-api/changgou-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/changgou-service-goods-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/changgou-service-goods-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/changgou-service-goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/changgou-service-goods.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BaseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/config/handler/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/config/handler/MyMetaObjectHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/dao/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/BrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/BrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/GoodsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/GoodsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BaseExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/TbBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/TbBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/TbBrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/goods/service/impl/TbBrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/dao/BrandMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/BrandService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/goods/service/impl/BrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-service/changgou-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-service/changgou-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +44,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/fancy-chenyao/changgou" />
+      </set>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -155,6 +105,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -271,7 +224,7 @@
       <workItem from="1566116163846" duration="9035000" />
       <workItem from="1606870204352" duration="4645000" />
       <workItem from="1606891916804" duration="6344000" />
-      <workItem from="1606907896856" duration="17794000" />
+      <workItem from="1606907896856" duration="24818000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1606909042055</created>
@@ -287,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606913981963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1_框架搭建（eureka+springCloud+mybatis-plus）">
+      <created>1607003857566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607003857566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,38 +302,54 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1308" y="319" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1606870495705" />
-    <state width="1444" height="119" key="GridCell.Tab.0.bottom" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.0.bottom" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.0.center" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.0.center" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.0.left" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.0.left" timestamp="1607435590511">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.0.right" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590511" />
+    <state width="1444" height="380" key="GridCell.Tab.0.right" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.1.bottom" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.1.bottom" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.1.center" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.1.center" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.1.left" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.1.left" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
-    <state width="1444" height="119" key="GridCell.Tab.1.right" timestamp="1607003448044">
+    <state width="1444" height="380" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="380" key="GridCell.Tab.1.right" timestamp="1607435590512">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1444" height="119" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1607003448044" />
+    <state width="1444" height="380" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1607435590512" />
+    <state width="1444" height="260" key="GridCell.Tab.2.bottom" timestamp="1607044969197">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1444" height="260" key="GridCell.Tab.2.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1607044969197" />
+    <state width="1444" height="260" key="GridCell.Tab.2.center" timestamp="1607044969197">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1444" height="260" key="GridCell.Tab.2.center/0.0.2752.1112@0.0.2752.1112" timestamp="1607044969197" />
+    <state width="1444" height="260" key="GridCell.Tab.2.left" timestamp="1607044969196">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1444" height="260" key="GridCell.Tab.2.left/0.0.2752.1112@0.0.2752.1112" timestamp="1607044969196" />
+    <state width="1444" height="260" key="GridCell.Tab.2.right" timestamp="1607044969197">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1444" height="260" key="GridCell.Tab.2.right/0.0.2752.1112@0.0.2752.1112" timestamp="1607044969197" />
     <state x="1418" y="296" key="Maven.ArtifactSearchDialog" timestamp="1606873610780">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
@@ -382,14 +358,14 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1403" y="204" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1606870502583" />
-    <state x="1654" y="289" key="Vcs.Push.Dialog.v2" timestamp="1606913987774">
+    <state x="1654" y="289" key="Vcs.Push.Dialog.v2" timestamp="1607003868061">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1654" y="289" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1606913987774" />
-    <state x="1866" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607003370336">
+    <state x="1654" y="289" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1607003868061" />
+    <state x="1866" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607435624802">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1866" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2752.1112@0.0.2752.1112" timestamp="1607003370336" />
+    <state x="1866" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2752.1112@0.0.2752.1112" timestamp="1607435624802" />
     <state x="1762" y="379" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607003466395">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>

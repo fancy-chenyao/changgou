@@ -25,11 +25,12 @@ public class TbBrandServiceImpl extends ServiceImpl<TbBrandMapper, TbBrand> impl
     @Resource
     private TbBrandMapper brandMapper;
     @Override
-    @Transactional
-    public Page<TbBrand> findAllPage(long current, long limit, Integer lastId) {
-        Page<TbBrand> brandPage = new Page<>(current,limit);
+    public Page<TbBrand> findAllPage(long current, long limit) {
+        Page<TbBrand> conditionPage = new Page<>((current-1) * limit + 1,1);
+        Page<TbBrand> brandPage = new Page<>(1,limit);
         QueryWrapper<TbBrand> brandQueryWrapper = new QueryWrapper<>();
-        brandQueryWrapper.ge("id",lastId).isNull("gmt_deleted")
+        brandQueryWrapper.isNull("gmt_deleted")
+                .ge("id",brandMapper.selectPage(conditionPage,new QueryWrapper<TbBrand>().orderByAsc("id")).getRecords().get(0).getId())
                 .orderByAsc("id");//按ID升序排列
         brandMapper.selectPage(brandPage,brandQueryWrapper);
         return brandPage;

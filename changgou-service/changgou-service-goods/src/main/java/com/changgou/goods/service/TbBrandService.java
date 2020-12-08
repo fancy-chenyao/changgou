@@ -14,5 +14,5 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
  */
 public interface TbBrandService extends IService<TbBrand> {
 
-    Page<TbBrand> findAllPage(long current, long limit, Integer lastId);
+    Page<TbBrand> findAllPage(long current, long limit);
 }

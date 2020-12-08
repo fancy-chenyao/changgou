@@ -31,8 +31,8 @@ public class BrandController {
     @ApiOperation(value = "查询全部数据")
     @GetMapping("/findAll/{current}/{limit}")
     @ResponseBody
-    R findAll(@PathVariable long current, @PathVariable long limit, Integer lastId){
-        Page<TbBrand> tbBrandPage = brandService.findAllPage(current,limit, lastId);
+    R findAll(@PathVariable long current, @PathVariable long limit){
+        Page<TbBrand> tbBrandPage = brandService.findAllPage(current,limit);
         long total = tbBrandPage.getTotal();
         List<TbBrand> records = tbBrandPage.getRecords();
         return R.ok().data("total",total).data("rows",records);

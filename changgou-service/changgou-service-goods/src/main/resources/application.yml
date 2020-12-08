@@ -1,5 +1,9 @@
 server:
   port: 18081
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 spring:
   application:
     name: goods
